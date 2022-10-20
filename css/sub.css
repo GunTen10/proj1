@@ -1,0 +1,140 @@
+/* intro1 */
+.subTop {
+    background: url('../img/sub/subtop1.jpg') no-repeat center center / cover;
+    width: 100%;
+    height: 200px;
+}
+.subBottom {
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.con_menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.con_menu li {
+    width: 120px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #b1caba;
+    text-align: center;
+}
+.con_menu li:first-child {
+    font-size: 25px;
+    border-top: 3px solid #b1caba;
+    border-bottom: 3px solid #b1caba;
+}
+.con_menu .active {
+    background-color: #D8EBB5;
+}
+.con_menu a {
+    font-size: 18px;
+}
+.con_menu .active a {
+    color: #086b29;
+}
+.sub_box {
+    margin-left: 20px;
+    width: 100%;
+}
+.sub_title {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #b1caba;
+}
+.sub_title h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sub_detail {
+    display: flex;
+    height: auto;
+}
+.sub_detail .left {
+    background: url('../img/sub/intro.jpg') no-repeat center center / cover;
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+.sub_detail .right {
+    width: 60%;
+}
+.sub_detail .right p {
+    margin-bottom: 20px;
+}
+
+/* intro2 */
+.orgChart {
+    background: url('../img/sub/sub0103_img01.png') no-repeat center center / contain;
+    width: 100%;
+    height: 700px;
+}
+
+/* business1 */
+.bui_box {
+    display: flex;
+    width: 100%;
+}
+.bui_box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.bui_img {
+    width: 30%;
+    height: 200px;
+}
+.bui_img:nth-child(odd) {
+    margin-right: 20px;
+}
+.bui_img:nth-child(even) {
+    margin-left: 20px;
+}
+.bui_img01 {
+    background: url('../img/sub/sub04_img01.jpg') no-repeat center center / cover;
+}
+.bui_img02 {
+    background: url('../img/sub/sub04_img02.jpg') no-repeat center center / cover;
+}
+.bui_img03 {
+    background: url('../img/sub/sub04_img03.jpg') no-repeat center center / cover;
+}
+.bui_img04 {
+    background: url('../img/sub/sub04_img04.jpg') no-repeat center center / cover;
+}
+.bui_text {
+    width: 70%;
+    padding: 30px;
+}
+.bui_text h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* business2 */
+.scholarship .top {
+    display: flex;
+    margin-bottom: 20px;
+}
+.scholarship .img {
+    background: url('../img/sub/sub0106_img01.jpg') no-repeat center center / cover;
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+}
+.scholarship .qual{
+    width: 75%;
+}
+.scholarship .text {
+    margin-bottom: 20px;
+}
+.scholarship h4 {
+    color: #086b29;
+}
+.scholarship li {
+    list-style: square;
+    font-weight: 300;
+    line-height: 2;
+}
